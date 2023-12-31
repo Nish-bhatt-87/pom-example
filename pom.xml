@@ -18,6 +18,10 @@
 
     </dependencies>
 
+<!--    comment out the build below and see that when you run the maven compile goal,-->
+<!--    there is no jar created -->
+<!--    the below is the customized build to create a jar when the compile goal runs-->
+
     <build>
         <plugins>
             <plugin>
